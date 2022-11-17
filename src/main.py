@@ -12,7 +12,7 @@ def parse():
     args.add_argument('--epochs', default=30, type=int)
 
     args.add_argument('--cpu', default=True)#action='store_true')
-    args.add_argument('--save_dir', default ='/home/ubuntu/seokilee/AttentionGRU/AttentionGRU/result')
+    args.add_argument('--save_dir', default = None)
 
     arg = args.parse_args()
     return arg
